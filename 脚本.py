@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 
 # 加载数据集
-df = pd.read_excel('/home/adminuser/OneDrive/桌面/ML数据集1.xlsx')
+df = pd.read_excel('D:/OneDrive/桌面/ML数据集1.xlsx.xlsx')
 
 # 划分特征和目标变量
 X = df.drop(['Negative Emotions'], axis=1)
